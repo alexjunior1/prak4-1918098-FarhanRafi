@@ -26,8 +26,17 @@ public class MainActivity extends AppCompatActivity {
     }
     private void addData() {
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Mahasiswa("Agung", "1218019", "2012"));
-        mahasiswaArrayList.add(new Mahasiswa("Abi", "1118002", "2011"));
-        mahasiswaArrayList.add(new Mahasiswa("Yudis", "1118031", "2011"));
+        mahasiswaArrayList.add(new Mahasiswa("Yudha Rahman", "1918123",
+                "2019"));
+        mahasiswaArrayList.add(new Mahasiswa("Ari Widiantoro", "1918321",
+                "2018"));
+        mahasiswaArrayList.add(new Mahasiswa("Muhammad Muklis", "1918234",
+                "2021"));
+        mahasiswaArrayList.add(new Mahasiswa("Khusdya Hariyudho", "1819076",
+                "2018"));
+        mahasiswaArrayList.add(new Mahasiswa("Barok Ahmad Royan", "1718087",
+                "2017"));
+        mahasiswaArrayList.add(new Mahasiswa("Dedik Setiawan", "1618065",
+                "2016"));
     }
 }
